@@ -40,7 +40,7 @@ public class Main {
 
 
         /* Treeset
-        --
+        -- it is used for sorting techniques
          */
         TreeSet <Double> tree = new TreeSet<>();
         tree.addAll(hash);
