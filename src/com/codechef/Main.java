@@ -44,7 +44,7 @@ public class Main {
          */
         TreeSet <Double> tree = new TreeSet<>();
         tree.addAll(hash);
-        //
+        // it will sort the array in ascending order:
         System.out.println(tree);
 
         ListIterator list1 = list.listIterator(list.size());
