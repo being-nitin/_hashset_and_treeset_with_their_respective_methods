@@ -59,6 +59,9 @@ public class Main {
         hash.forEach(e->{
             System.out.println(e);
         });
+        /*
+        forEach method is a part of functional interface:
+         */
     }
     }
 
