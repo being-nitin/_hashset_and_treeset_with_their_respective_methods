@@ -36,9 +36,6 @@ public class Main {
         -- duplicate elements are not allowed
          */
         System.out.println(hash);
-
-
-
         /* Treeset
         -- it is used for sorting techniques
          */
@@ -51,7 +48,9 @@ public class Main {
         while(list1.hasPrevious()){
             System.out.println(list1.previous());
 
+            hash.forEach(e->{
+                System.out.println(e);
+            });
         }
-
     }
 }
