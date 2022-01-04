@@ -45,12 +45,19 @@ public class Main {
         System.out.println(tree);
 
         ListIterator list1 = list.listIterator(list.size());
-        while(list1.hasPrevious()){
+        while(list1.hasPrevious()) {
             System.out.println(list1.previous());
-
+        }
+        // for each method added to traverse:
             hash.forEach(e->{
                 System.out.println(e);
             });
-        }
+        System.out.println("__________________________");
+        TreeSet <Double> tree1 = new TreeSet<>();
+        tree.addAll(hash);
+        hash.forEach(e->{
+            System.out.println(e);
+        });
     }
-}
+    }
+
