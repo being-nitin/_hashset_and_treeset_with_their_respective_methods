@@ -52,6 +52,7 @@ public class Main {
             hash.forEach(e->{
                 System.out.println(e);
             });
+        // used forEach method to traverse the treeset:
         System.out.println("__________________________");
         TreeSet <Double> tree1 = new TreeSet<>();
         tree.addAll(hash);
